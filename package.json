@@ -1,0 +1,54 @@
+{
+  "name": "express-mongoose-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production forever server.js",
+    "start:development": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitgo4/Express-Mongoose-Scaffold.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "nodejs",
+    "webpack",
+    "npm"
+  ],
+  "author": "Arpit Goyal <arpit.go4@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/arpitgo4/Express-Mongoose-Scaffold/issues"
+  },
+  "homepage": "https://github.com/arpitgo4/Express-Mongoose-Scaffold#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "chalk": "^2.1.0",
+    "cors": "^2.8.4",
+    "cross-env": "^5.0.5",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.4",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-plugin-react": "^7.3.0",
+    "nodemon": "^1.12.1"
+  }
+}
